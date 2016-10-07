@@ -1,0 +1,174 @@
+doctype html
+html(lang='ind')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='description', content='Website resmi program studi Teknik Informatika, fakultas Ilmu Komputer. Universitas Bina Darma, Palembang')
+		meta(name='author', content='UPT-SIM, Prodi Informatika')
+		title Program Studi Teknik Informatika | Universitas Bina Darma, Palembang
+
+		block content
+			link(href='css/bootstrap.min.css', rel='stylesheet')
+			link(href='css/font-awesome.min.css', rel='stylesheet')
+			link(href='css/prettyPhoto.css', rel='stylesheet')
+			link(href='css/animate.css', rel='stylesheet')
+			link(href='css/main.css', rel='stylesheet')
+			//if lt IE 9
+				script(src='js/html5shiv.js')
+				script(src='js/respond.min.js')
+			link(rel='shortcut icon', href='images/ico/favicon.ico')
+			link(rel='apple-touch-icon-precomposed', sizes='144x144', href='images/ico/apple-touch-icon-144-precomposed.png')
+			link(rel='apple-touch-icon-precomposed', sizes='114x114', href='images/ico/apple-touch-icon-114-precomposed.png')
+			link(rel='apple-touch-icon-precomposed', sizes='72x72', href='images/ico/apple-touch-icon-72-precomposed.png')
+			link(rel='apple-touch-icon-precomposed', href='images/ico/apple-touch-icon-57-precomposed.png')
+
+	body
+		header.navbar.navbar-inverse.navbar-fixed-top.wet-asphalt(role='banner')
+			.container
+				.navbar-header
+					button.navbar-toggle(data-toggle='collapse' data-target='navbar-colapse')
+						span.sr-only Toogle Navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href='#')
+						img(src='images/if-logo-putih.png' alt='Program Studi Teknik Informatika')
+
+				.collapse.navbar-collapse
+					ul.nav.navbar-nav.navbar-right
+						li.active
+							a(href='#') Home
+						li
+							a(href='#') About Us
+						li
+							a(href='#') Services
+						li
+							a(href='#') Portofolio
+						li.dropdown
+							a.dropdown-toggle(data-toggle='dropdown' href='#') Pages &nbsp;
+								i.icon-angle-down
+							ul.dropdown-menu
+								li
+									a(href='#') Career
+								li
+									a(href='#') Blog Single
+								li
+									a(href='#') Procong
+								li
+									a(href='#') 4040
+								li
+									a(href='#') Registration
+								li.divider
+								li
+									a(href='#') Privacy Police
+								li
+									a(href='#') Terms of Use
+						li
+							a(href='#') Blog
+						li
+									a(href='#') Contact
+
+		block content
+
+		section#bottom.wet-asphalt
+			.container
+				.row
+					.col-md-3.col-sm-3
+						h4 Abaout Us
+						p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+						p Pellentesque habitant morbi tristique senectus.
+
+					.col-md-3.col-sm-3
+						h4 Company
+						div
+							ul.arrow
+								li
+									a(href='#') Company Overview
+								li
+									a(href='#') Meet the Team
+								li
+									a(href='#') Our Awesome Partners
+								li
+									a(href='#') Our Services
+								li
+									a(href='#') Frequently Asked Question
+								li
+									a(href='#') Contact Us
+								li
+									a(href='#') Privacy Police
+								li
+									a(href='#') Terms of USe
+								li
+									a(href='#') Copyright
+
+					.col-md-3.col-sm-3
+						h4 Latest Blog
+						div
+							.media
+								.pull-left
+									img(src='images/blog/thumb1.jpg')
+								.media-body
+									span.media.heading
+										a(href='#') Pellentesque habitant morbi tristique senectus
+									small.muted Posted 17 Aug 2016
+
+							.media
+								.pull-left
+									img(src='images/blog/thumb2.jpg')
+								.media-body
+									span.media.heading
+										a(href='#') Pellentesque habitant morbi tristique senectus
+									small.muted Posted 17 Sep 2016
+
+							.media
+								.pull-left
+									img(src='images/blog/thumb3.jpg')
+								.media-body
+									span.media.heading
+										a(href='#') Pellentesque habitant morbi tristique senectus
+									small.muted Posted 17 Okt 2016
+
+					.col-md-3.col-sm-3
+						h4 Kontak
+						address
+							strong Kampus Utama, Universitas Bina Darma
+							br
+							i.icon-map-marker &nbsp;&nbsp; 
+							|Jl. Jenderal A. Yani No. 3 Palembang
+							br 
+							i.icon-envelope &nbsp;&nbsp;
+							a(href='mailto:if@binadarma.ac.id') if@binadarma.ac.id
+							br
+							i.icon-phone &nbsp;&nbsp;
+							|0711-515679 ext. 111 | 0711-515581
+							br
+							i.icon-facebook &nbsp;&nbsp;
+							a(href='https://www.facebook.com/groups/556739317736432/' target='_blank') Group Tanya Jawab
+
+		footer#footer.midnight-blue
+			.container
+				.row
+					.col-sm-6
+						| &copy; 2016 &nbsp;
+						a(target='_blank' href='htpp://www,binadarma.ac.id') UPT-SIM, Universitas Bina Darma
+
+					.col-sm-6
+						ul.pull-right
+							li
+								a(href='#') Home
+							li
+								a(href='#') Abaout US
+							li
+								a(href='#') Faq
+							li
+								a(href='#') Contact Us
+							li
+								a#gototop.gototop(href='#') 
+									i.icon-chevron-up
+
+		block script
+			script(src='/reload/reload.js')
+			script(src='js/jquery.js')
+			script(src='js/bootstrap.min.js')
+			script(src='js/jquery.prettyPhoto.js')
+			script(src='js/main.js')
